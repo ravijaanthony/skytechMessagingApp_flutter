@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "652906323930",
-    "project_id": "flash-chat-c8455",
-    "storage_bucket": "flash-chat-c8455.appspot.com"
+    "project_number": "551894879064",
+    "project_id": "approval-app-skytech",
+    "storage_bucket": "approval-app-skytech.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:652906323930:android:5507caa51099f4d8bf2ae3",
+        "mobilesdk_app_id": "1:551894879064:android:57fd6fa64ae587669d732d",
         "android_client_info": {
-          "package_name": "com.ravijaanthony.flash_chat_flutter"
+          "package_name": "com.ravijaanthony.approvalApp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "652906323930-njep7uprh8hgs2dd2t8k8s2m2k3g60fv.apps.googleusercontent.com",
+          "client_id": "551894879064-28ngtu6lqta0m31svp573d3ege8e6e4i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrRCPJ2PZKkKBIlFwiDNg-gCwuYGmr3yI"
+          "current_key": "AIzaSyDia9oEZuovsaMqHYs2mvtsWGSB5ru67eI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "652906323930-njep7uprh8hgs2dd2t8k8s2m2k3g60fv.apps.googleusercontent.com",
+              "client_id": "551894879064-28ngtu6lqta0m31svp573d3ege8e6e4i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

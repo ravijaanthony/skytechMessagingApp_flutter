@@ -47,28 +47,49 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Hero(
                   tag: 'logo',
                   child: Container(
-                    child: Image.asset('images/logo.png'),
-                    height: 60,
+                    child: Image.asset('images/logo.jpg'),
+                    height: 150,
+                    alignment: Alignment.center,
                   ),
-                ),
-                AnimatedTextKit(
-                  animatedTexts: [
-                    TypewriterAnimatedText(
-                      'Flash Chat',
-                      textStyle: TextStyle(
-                        fontSize: 45.0,
-                        fontWeight: FontWeight.w900,
-                      ),
-                    ),
-                  ],
-                  repeatForever: true,
                 ),
               ],
             ),
+            // SizedBox(
+            //   height: 48.0,
+            // ),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Approval App',
+                  style: TextStyle(
+                    fontSize: 45.0,
+                    fontWeight: FontWeight.w900,
+                  ),
+                )
+
+                // AnimatedTextKit(
+                //   animatedTexts: [
+                //     TypewriterAnimatedText(
+                //       'Approval App',
+                //       textStyle: TextStyle(
+                //         fontSize: 45.0,
+                //         fontWeight: FontWeight.w900,
+                //       ),
+                //     ),
+                //   ],
+                //   repeatForever: true,
+                // ),
+              ],
+            ),
+
             SizedBox(
               height: 48.0,
             ),
