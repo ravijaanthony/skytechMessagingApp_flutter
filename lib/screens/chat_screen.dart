@@ -46,7 +46,7 @@ class _ChatScreenState extends State<ChatScreen> {
         actions: <Widget>[
           IconButton(icon: Icon(Icons.close), onPressed: () {}),
         ],
-        title: Text('⚡️Chat'),
+        title: Text('️Chat'),
         backgroundColor: Colors.lightBlueAccent,
       ),
       body: SafeArea(

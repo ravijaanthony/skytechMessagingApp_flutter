@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flash_chat_flutter/components/rounded_button.dart';
 import 'package:flash_chat_flutter/constants.dart';
 import 'package:flash_chat_flutter/screens/chat_screen.dart';
+import 'package:flash_chat_flutter/screens/messages_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 
@@ -81,7 +82,8 @@ class _LoginScreenState extends State<LoginScreen> {
                     final user = _auth.signInWithEmailAndPassword(email: email, password: password);
 
                     if (user != null) {
-                      Navigator.pushNamed(context, ChatScreen.id);
+                      // Navigator.pushNamed(context, ChatScreen.id);
+                      Navigator.pushNamed(context, MessageScreen.id);
                     }
 
                     setState(() {
